@@ -17,7 +17,12 @@
   ],
   "babel": {
     "presets": [
-      "env"
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "entry"
+        }
+      ]
     ]
   },
   "author": "Antonio Mata (antonio.mata.sv@gmail.com)",
@@ -27,7 +32,8 @@
   },
   "homepage": "https://github.com/DevMata/ciao-mondo#readme",
   "devDependencies": {
-    "@babel/preset-env": "^7.16.11",
-    "babel-cli": "^6.26.0"
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11"
   }
 }
