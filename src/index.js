@@ -1,0 +1,1 @@
+export default () => "Ciao Mondo!";
