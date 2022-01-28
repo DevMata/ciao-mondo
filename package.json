@@ -1,0 +1,28 @@
+{
+  "name": "ciao-mondo",
+  "version": "1.0.0",
+  "description": "Ciao Mondo!",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMata/ciao-mondo.git"
+  },
+  "keywords": [
+    "ciao",
+    "mondo"
+  ],
+  "author": "Antonio Mata (antonio.mata.sv@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMata/ciao-mondo/issues"
+  },
+  "homepage": "https://github.com/DevMata/ciao-mondo#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-cli": "^6.26.0"
+  }
+}
